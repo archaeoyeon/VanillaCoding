@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h1>  Today's weather = <span id="weather"> ? </span> </h1>
+
+<button id="tdw" value="ask" onclick="displayResult()">ask me</button>
+
+<script>
+
+
+function displayResult() {
+
+  if(document.querySelector('#tdw').value === 'ask'){
+
+     document.querySelector('#weather').innerHTML ="hot" ;
+     document.querySelector('#tdw').value ="dont ask" ;
+
+   } else {
+     document.querySelector('#weather').innerHTML ="I dont know" ;
+
+   }
+}
+</script>
+
+
+
+
+
+</body>
+</html>
