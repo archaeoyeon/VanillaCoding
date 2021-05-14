@@ -1,0 +1,114 @@
+@charset "UTF-8";
+html, body, {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav li a {
+  font-weight: bold;
+      color : black ;
+      text-decoration: none ;
+}
+.topmenu {
+  margin: 0;
+}
+.topmenu ul {
+    display : flex;
+    flex-flow: row;
+    justify-content : flex-end;
+    list-style : none
+  }
+  .topmenu li {
+    bottom : 7px ; right : 10px ;
+    margin-left : 50px ;
+  }
+
+  .topmenu .login {
+    width:100px;
+    height:40px;
+    border : 9px;
+    border-radius: 20px
+  }
+
+.logo {
+  text-align: center;
+  margin-top: 100px;
+}
+.logo img{
+  width : 370px ;
+  height : 150px ;
+  padding-bottom: 0:
+}
+.searchengin {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchengin .sbar {
+  width:500px;
+  height:35px;
+  border-radius: 20px
+}
+.searchengin .buttons {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.searchengin .bfors {
+  width:50px;
+  height:30px;
+  border : 9px;
+  border-radius: 20px
+}
+.searchengin .lucky {
+  width:150px;
+  height:30px;
+  border : 9px;
+  border-radius: 20px
+}
+
+.footer-container{
+  background-color: #EEE9E9;
+  margin:  0;
+}
+.nation{
+    font-weight: bold;
+    text-decoration: none ;
+    padding: 15px 30px;
+    border-bottom: 0.5px solid;
+    font-size: 15px;
+}
+.footer-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.footer-content ul li{
+  vertical-align: middle;
+  list-style: none;
+  font-weight: bold;
+  float: left;
+}
+.footer-content li a{
+  color : black ;
+  text-decoration: none ;
+}
+.leftcontent{
+  margin-right: 50px ;
+}
+.rightcontent{
+  margin-right: 50px ;
+}
