@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    
+}
+
+.backgroundimg{
+    background-size: cover;
+}
+
+.cold{
+    background-image: url('cold.png');
+}
+
+.hot{
+    background-image: url('hot.png');
+}
+
+main {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.content {
+    font-size: 70px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.askme {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
