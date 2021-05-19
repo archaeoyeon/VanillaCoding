@@ -1,0 +1,108 @@
+html{
+    margin: 0;
+    background-color: #FF8C8C;
+}
+
+body{
+    margin : 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.head{
+    margin-top: 7%;
+
+    margin-left: 1%;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 11px;
+    font-weight: bold;
+}
+
+.prev, .forward {
+    background-color: salmon;
+    color: white;
+    padding: 0.2em 0.5em;
+    border: none;
+    transition: all .3s ease;
+    border-radius: 5px;
+    outline: none;
+    align-self: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  /* https://nanati.me/css-button-design/ */
+  
+.prev:hover,.forward:hover{
+    background-color:	#FFB937;
+  }
+
+.cal{
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+
+.calhead{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #FF7878	;
+    border-radius: 10px;
+}
+
+.currentMonth{
+    width: 250px;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 30px;   
+}
+
+
+.today{
+    width: 350px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 3%;
+}
+
+.days, .datelist{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+    background-color:#BE5C5C		;
+    
+}
+.days div, .datelist div{
+    
+    width: 11%;
+    padding-bottom: 12px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.days{
+    background-color: #CD7070;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.datelist{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
