@@ -1,0 +1,83 @@
+body{
+    margin : 0;
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #006400;
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+ol.main {
+    height: 80%;
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.content > .main{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.main > .imageHolder{
+    margin-left: 3%;
+    margin-right: 6%;
+    width: 60vw;
+    height: 270px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+.prev{
+    margin-right: 3%;
+}
+
+.forward{
+     margin-right: 8%;
+}
+
+.prev, .forward {
+    background-color: #d2b48c;
+    color: white;
+    padding: 0.2em 0.5em;
+    border: none;
+    transition: all .3s ease;
+    border-radius: 5px;
+    outline: none;
+    align-self: center;
+    cursor: pointer;
+    font-weight: bold;
+    width: 5%;
+    height: 12%;
+  }
+  /* https://nanati.me/css-button-design/ */
+
+  .content > .dotBundle{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center; 
+    width: 13%;   
+    margin-top: 20px;
+    margin-right: 40px;
+} 
+
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffcc99;
+}
