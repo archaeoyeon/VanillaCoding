@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="shoppingList.css">
+</head>
+
+
+<body>
+<section class="list"> 
+<header class="shoppinglist"> Shopping List </header>
+
+<ul class="itemlist">
+    <li class="items">
+        <div class="item">
+            <span class="itemName">Egg</span>
+            <button class="delete" ><img src="https://png.pngtree.com/png-clipart/20190614/original/pngtree-vector-trash-icon-png-image_3788103.jpg"></button>
+        </div>
+    </li>
+</ul>
+<footer>
+<input class="toWrite" type="text" onchange="uploadItem(this.value)">
+<button class="Btn">+</button>
+</footer>
+</section>
+</body>
+
+<script src="shoppingList.js"></script>
+</html>
