@@ -4,44 +4,43 @@
     <meta charset="utf-8">
     <title>Google clone</title>
     <link rel="stylesheet" href="googlestyle.css">
+    <script src="https://kit.fontawesome.com/047e4e74f5.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <header>
-      <nav>
-      <div class="topmenu">
+    <nav>
+      <div class="topMenu">
        <ul>
         <li><a href="http://www.google.com/gmail/">Gmail</a></li>
         <li><a href="https://www.google.co.kr/imghp">이미지</a></li>
         <li><button class="login"><a href='https://accounts.google.com/'>로그인</button></li>
        </ul>
      </div>
-     <nav>
-    </header>
+    </nav>
 
-      <main>
-        <div class="logo">
-          <a href="#" target="_blank">
-            <img src="googlelogo.png" alt"구글로고">
-          </a>
-        </div>
-      </main>
-      <article class="searchengin">
+    <main>
+      <div class="logo">
+        <a href="#" target="_blank">
+          <img src="googlelogo.png" alt="구글로고">
+        </a>
+      </div>
+
+      <article class="searchEngin">
         <div>
           <form action="#">
-            <p><input class="sbar" type="text" name="search"></p>
+            <input class="s_bar" type="text" name="search">
+             <i class="fas fa-microphone"></i>
             <ul class="buttons">
-            <li><input class="bfors" type="submit" value="검색"></li>
+            <li><input class="btnForsearch" type="submit" value="검색"></li>
             <li><input class="lucky" type="submit" value="I'm feeling lucky"></li>
            </ul>
           </form>
-          <!-- form 태그 활용하면 weather.html에서 안된 입력창 입력과 그에 따라 반응하는 기능 가능할까?? -->
         </div>
       </article>
+    </main>
 
       <footer class="footer-container">
-        <div class="nation">
-          대한민국
-        </div>
+        <div class="nation">대한민국</div>
         <div class="footer-content">
           <ul>
             <li class="leftcontent"><a href="https://about.google">Google 정보</a></li>
