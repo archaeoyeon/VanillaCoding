@@ -1,4 +1,4 @@
-body{
+body {
     margin : 0;
     display: flex;
     justify-content: center;
@@ -7,13 +7,13 @@ body{
     min-height: 100vh;
 }
 
-.core{
+.core {
     font-family: 'Segoe UI';
     font-size: 50px;
     font-weight: bold;
 }
 
-.click{
+.click {
     background-color: grey;
     color: white;
     width: 80px;
@@ -24,7 +24,7 @@ body{
     border-style: none;
 }
 
-.click:hover{
+.click:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
