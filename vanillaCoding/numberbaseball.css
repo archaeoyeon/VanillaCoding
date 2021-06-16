@@ -1,5 +1,14 @@
 body{
     margin: 0;
+    background-color: gainsboro;
+}
+
+.background_img {
+    position: absolute;
+    left: 9%;
+    width: 80%;
+    height: 100%;
+    z-index: -1;
 }
 
 .container{
@@ -12,45 +21,74 @@ body{
 }
 
 .inning{
-    margin-bottom: 10px;
-    margin-top: 20px;
+    flex:1;
+    transform: translateX(-5%);
+    margin-top: 7%;
+    color: white;
     font-size: 40px;
-    font-weight: 100;
+    font-weight: 20px;
     font-family: 'Segoe UI';
+}
+
+.result{
+    flex:3;
+    margin-bottom: 13%;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: monospace;
     text-align: center;
 }
 
+.result .strike{
+    color: #FB4303;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.result .ball{
+    color: #0C2FAF;
+    font-size: 40px;
+    font-weight: bolder;
+}
 
 .start{
-    width: 20%;
+    position: absolute;
+    margin-bottom: 80px;
+    margin-right: 20px;
+    width: 17%;
     height: 70px;
-    font-size: 50px;
-    text-align: center;
+    padding: 0.2em 0.5em;
+    color: white;
+    font-size: 200%;
     font-family: monospace;
     background-color: #d2b48c;
-    color: white;
-    padding: 0.2em 0.5em;
     border: none;
-    transition: all .3s ease;
     border-radius: 5px;
     outline: none;
-    align-self: center;
     cursor: pointer;
     font-weight: bold;
 }
 
-.submit > input{
+.start:hover{
+    transform: scale(1.1);
+}
+
+.submit{
+    flex:2;
+    width: 40%;
+    transform: translateX(-3%);
+}
+
+.submit input{
     margin-top: 50px;
-    width: 500px;
     height: 70px;
+    width: 100%;
+    padding: 0;
     font-size: 30px;
     text-align: center;
 }
 
-.result{
-    margin-top: 10px;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: monospace;
-    text-align: center;
+.hidden{
+    visibility: hidden;
 }
