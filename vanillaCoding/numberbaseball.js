@@ -8,55 +8,68 @@ const inning = document.querySelector(".inning");
 
 start.addEventListener("click", createNum);
 
+
 let count = 0;
-
 function createNum(){
-
-    if (count >9){
-        alert("Game over");
-        start.value = "restart"
-        count = 0;
-        
-    }
-    count ++;
-    inning.innerHTML = `Inning ${count}`;
-    let randomNum = Math.floor(Math.random()*1000);
+    let randomNum = Math.floor(Math.random()*1000).toString().padStart(3,0);
     localStorage.setItem("randomNum", randomNum);
-    submit.addEventListener("submit", submitNum);
-    
+    gameSetting();
 }
 
+function gameSetting(){
+    if (count >8){
+        gameOver();
+    } 
+    else{
+        count ++;
+        inning.innerHTML = `Inning ${count}`;
+        result.innerHTML = "";
+        randomresult.innerHTML = "";
+        input.value="";
+        start.value = "Inning Change";
+        submit.classList.remove("hidden");
+        submit.addEventListener("submit", submitNum);
+    }
+}
+
+function gameOver(){
+    inning.innerHTML = "Game over";
+    submit.classList.add("hidden");
+    start.value = "restart"
+    result.innerHTML = ""
+    count = 0;
+}
 
 function submitNum(event){
-    start.value = "start"
     event.preventDefault();
     const submitedNum = input.value;
     if(submitedNum.length != 3 ){
-        alert ("Please.. I said 3!!");
-    } else{
-    saveNum(submitedNum);
-    compareNum();
+        alert ("Please.. throw 3 Numbers");
+    } 
+    else{
+        saveNum(submitedNum);
+        compareNum();
     }
 }
 
-function saveNum(submitedNum){
-    localStorage.setItem("submitedNum", submitedNum);
+function saveNum(userInput){
+    localStorage.setItem("userInput", userInput);
 }
 
 function compareNum(){
-    const resultRandom = localStorage.getItem("randomNum");
-    const resultSubmitted = localStorage.getItem("submitedNum")
-    let strikeCount = 0,
-        ballCount = 0;
+    const randomNum = localStorage.getItem("randomNum");
+    const userInput = localStorage.getItem("userInput");
+    let strikeCount = 0, ballCount = 0;
+
     for( let i = 0 ; i<3 ; i++){
-    if (resultRandom[i] == resultSubmitted[i]){
-        strikeCount++ ;
-    } else {
-        ballCount++ ;
+        if (randomNum[i] === userInput[i]){
+            strikeCount++;
+        } 
+        else {
+            ballCount++ ;
+        }
     }
-}
-    result.innerHTML = `${strikeCount} Strike!, ${ballCount} Ball~` ;
-    randomresult.innerHTML = `Computer: ${resultRandom}`;
-}
 
-
+    result.innerHTML = `<span class="strike"> ${strikeCount}</span> Strike! <span class="ball">${ballCount}</span> Ball~` ;
+    randomresult.innerHTML = `Computer: ${randomNum}`;
+}
