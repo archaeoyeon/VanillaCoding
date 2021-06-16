@@ -8,48 +8,50 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.head{
+.currentYear{
     margin-top: 7%;
     margin-left: 1%;
     text-align: center;
     font-size: 40px;
-    letter-spacing: 11px;
     font-weight: bold;
+    letter-spacing: 11px;
 }
 
 .prev, .forward {
-    background-color: salmon;
-    color: white;
     padding: 0.2em 0.5em;
+    align-self: center;
     border: none;
-    transition: all .3s ease;
     border-radius: 5px;
     outline: none;
-    align-self: center;
     cursor: pointer;
+    background-color: #DB4062;
+    color: white;
     font-weight: bold;
   }
   /* https://nanati.me/css-button-design/ */
   
+
 .prev:hover,.forward:hover{
-    background-color:	#FFB937;
+    background-color: #FFB937;
+    transform: scale(1.2);
   }
 
 .cal{
+    width: 50%;
+    transform: translateX(50%);
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
-
-.calhead{
+.calHead{
     display: flex;
     justify-content: space-evenly;
     width: 350px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: #FF7878	;
+    height: 45px;
+    margin-bottom: 1%;
     border-radius: 10px;
+    background-color: #FF7878;
 }
 
 .currentMonth{
@@ -59,8 +61,9 @@ body{
     font-size: 30px;   
 }
 
-
 .today{
+    margin-top: 1%;
+    margin-bottom: 3%;
     width: 350px;
     text-align: center;
     font-size: 30px;
@@ -68,7 +71,6 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     letter-spacing: 3px;
-    margin-bottom: 3%;
 }
 
 .days, .datelist{
@@ -81,13 +83,19 @@ body{
 }
 
 .days div, .datelist div{
-    width: 11%;
+    width: 50px;
+    height: 30px;
+    padding-top: 9px;
     padding-bottom: 12px;
     text-align: center;
-    margin-top: 1rem;
-    margin-left: 10px;
+    line-height: 30px;
     font-size: 13px;
     font-weight: bold;
+    border-radius: 7px;
+}
+
+.datelist div:hover{
+    cursor: pointer;
 }
 
 .days{
@@ -103,4 +111,8 @@ body{
 
 .notThisMon{
     opacity: 0.3;
+}
+
+.clicked{
+    background-color: #D77A58;
 }
