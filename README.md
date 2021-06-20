@@ -3,18 +3,18 @@
 </br>
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuMdA4%2Fbtq7DtvHqHI%2FLFCykh7EQgnEEN7nfOR5n0%2Fimg.png" width="400px" height="250px" alt="CarrotGame"></img><br/>
 </br>
-</br>*carrot_main
-게임의 시작과 종료, 점수 계산 등을 위한 이벤트리스너들이 작성되어있음
-</br>*game_startEand
-게임의 시작과 종료 관련 함수들
-</br>*game_items
-게임 아이템(당근, 벌레) 생성과 배치 관련 클래스
-</br>*game_setting
-게임 시작과 종료시에 화면 구성의 변경 관련 클래스
- </br>*game_popup
- 게임 종료시 재시작 버튼과 결과 출력 팝업 클래스
- </br>*game_sound
- 게임 사운드 함수들
+</br>*carrot_main:
+</br>게임의 시작과 종료, 점수 계산 등을 위한 이벤트리스너들이 작성되어있음
+</br>*game_startEand:
+</br>게임의 시작과 종료 관련 함수들
+</br>*game_items:
+</br>게임 아이템(당근, 벌레) 생성과 배치 관련 클래스
+</br>*game_setting:
+</br>게임 시작과 종료시에 화면 구성의 변경 관련 클래스
+ </br>*game_popup:
+</br> 게임 종료시 재시작 버튼과 결과 출력 팝업 클래스
+ </br>*game_sound:
+</br> 게임 사운드 함수들
 
 
 # vanillaCoding
