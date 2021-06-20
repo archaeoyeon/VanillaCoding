@@ -19,7 +19,8 @@
 
 -------------------------
 # ShoppingList
-입력창에 사용자가 입력 후 Enter키 혹은 +버튼 클릭시 쇼핑목록에 추가, 목록 옆에 위치한 휴지통 모양 클릭시 목록에서 삭제
+HTML/CSS/JS 파일로 구성
+입력창에 사용자가 입력 후 Enter키 혹은 +버튼 클릭시 쇼핑목록에 추가, 목록 옆에 위치한 휴지통 모양 클릭시 목록에서 삭제 기능
 </br>
 </br>
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcwEecL%2Fbtq6n69c2An%2FKu1W5il49L4adsyV6uCI21%2Fimg.png" width="400px" height="250px" alt="ShoppingList"></img><br/>
