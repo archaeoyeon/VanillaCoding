@@ -16,7 +16,7 @@ _3.hexCode_
 
 _4.Calendar_
 </br> 오늘 날짜 출력, 양 옆의 버튼 클릭시 월 전환, 날짜영역 클릭시 해당 날짜를 표시</br>
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRkxqX%2Fbtq7trXHCs8%2Fc20l9u5OMFefqeAkXVUrk1%2Fimg.png" width="400px" height="250px" alt="hexcolorcode"></img><br/>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRkxqX%2Fbtq7trXHCs8%2Fc20l9u5OMFefqeAkXVUrk1%2Fimg.png" width="400px" height="200px" alt="hexcolorcode"></img><br/>
 
 _5.NumberBaseball_
 </br> 시작 버튼 클릭시 랜덤하게 3자리 숫자 생성, 사용자가 입력한 숫자와 비교하여 Strike Ball 계산 / 9회가 끝나면 게임 종료
