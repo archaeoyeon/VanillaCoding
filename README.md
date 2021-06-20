@@ -19,5 +19,5 @@ _4.Calendar_
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRkxqX%2Fbtq7trXHCs8%2Fc20l9u5OMFefqeAkXVUrk1%2Fimg.png" width="400px" height="200px" alt="hexcolorcode"></img><br/>
 
 _5.NumberBaseball_
-</br> 시작 버튼 클릭시 랜덤하게 3자리 숫자 생성, 사용자가 입력한 숫자와 비교하여 Strike Ball 계산 / 9회가 끝나면 게임 종료
+</br> 시작 버튼 클릭시 랜덤하게 3자리 숫자 생성, 사용자가 입력한 숫자와 비교하여 Strike Ball 계산 / 9회가 끝나면 게임 종료</br>
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmemUC%2Fbtq7nHnmESE%2Fjbsn3sKfbUlM4G2EQj6Bkk%2Fimg.png" width="400px" height="250px" alt="hexcolorcode"></img><br/>
